@@ -1,0 +1,60 @@
+# Generic Java
+*.class
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.bak
+pom.xml.versions
+pom.xml.releaseBackup
+# Maven annotation processor output directory
+bin/
+# Maven temporary file
+m2/
+
+# Gradle
+.gradle/
+build/
+# Gradle cache
+.cache/
+# Generated Gradle files
+gradlew
+gradlew.bat
+# Gradle Wrapper configuration
+.gradle-wrapper/
+
+# IDE-specific files
+.idea/             # IntelliJ IDEA project files
+.metadata/         # Eclipse workspace metadata
+.settings/         # Eclipse project settings
+*.iml              # IntelliJ project modules
+*.ipr              # IntelliJ project files
+*.iws              # IntelliJ project files
+.project           # Eclipse project file
+.classpath         # Eclipse classpath file
+.externalToolBuilders/
+*.launch
+.springBeans       # STS (Spring Tool Suite)
+.recommenders/
+
+# Operating System files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Log files and directories
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables and sensitive files
+.env
+local.properties
+# Files containing credentials, e.g., for local development
+env.properties
+
+# Other
+# specific test reports/coverage directories
+test-results/
+coverage/
